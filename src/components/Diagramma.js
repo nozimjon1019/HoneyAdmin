@@ -1,6 +1,5 @@
-import React, { PureComponent, useEffect, useState } from "react";
+import React from "react";
 import { BarChart, Bar, ResponsiveContainer } from "recharts";
-import axios from "axios";
 
 import PropTypes from "prop-types";
 import { Cell, XAxis, YAxis, CartesianGrid } from "recharts";
