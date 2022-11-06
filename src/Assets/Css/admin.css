@@ -1,0 +1,503 @@
+.admin {
+  width: 100%;
+  height: auto;
+}
+
+.adminQoraoyna {
+  width: 100%;
+  height: auto;
+}
+
+.qoraoytna {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding-bottom: 25%;
+  background-image: url(../img/boshsh.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.yozlar {
+  padding-top: 18%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yozlar > p {
+  font-weight: 900;
+  font-size: 45.5px;
+  line-height: 110%;
+  color: #fff;
+}
+
+.yozlar > button {
+  width: 200px;
+  height: 50px;
+  margin-top: 40px;
+  color: #fff;
+  background-color: rgba(0, 0, 255, 0.343);
+  border-radius: 10px;
+  font-size: 18px;
+  border: 1px solid blue;
+  box-shadow: 0 0 50px blue;
+}
+
+.func {
+  margin: 30px;
+}
+
+.qizilpastri {
+  width: 100%;
+  height: auto;
+  padding: 30px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.sportchilat {
+  width: 100%;
+  height: auto;
+  padding: 10px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sport {
+  width: 370px;
+  height: 310px;
+}
+.sport > p {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 120%;
+  color: #384255;
+}
+
+.sportUshla {
+  width: 100%;
+  height: auto;
+  padding: 10px 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shoppingg {
+  width: 100%;
+  height: auto;
+  padding: 30px 1%;
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+
+#teripber1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.togtiTer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1276px) {
+  #teripber1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 599px) {
+  .func {
+    margin: 10px;
+  }
+}
+@media (max-width: 546px) {
+  .func {
+    margin: 10px;
+  }
+  .shopping {
+    width: 210px;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 466px) {
+  .func {
+    margin: 10px 5px;
+  }
+  .shopping {
+    width: 200px;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+  .btn {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .radetish {
+    display: flex;
+  }
+}
+
+@media (max-width: 438px) {
+  .shopping {
+    width: 180px;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 399px) {
+  .shopping {
+    width: 160px;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+  .yozuv3 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 0;
+  }
+  .yozuv3 > p {
+    display: none;
+  }
+  .radetish :nth-child(2) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135.94%;
+    text-decoration-line: line-through;
+    color: #858fa4;
+    display: none;
+  }
+  .yoz1 p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2fc509;
+    text-align: center;
+    padding-left: 50px;
+  }
+
+  .yoz1 a {
+    display: none;
+
+    text-decoration: none;
+    padding-left: 20px;
+    color: blue;
+  }
+  .func {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 351px) {
+  .shopping {
+    width: 140px;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+  .image{
+    width: 100%;
+    height: auto;
+  }
+  .image > img{
+    width: 100%;
+  }
+  .yoz1 p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2fc509;
+    text-align: center;
+    padding-left: 30px;
+  }
+  .yozuv2 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 1px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1a1a25;
+  }
+}
+
+/* @media (max-width: 1997px) {
+  .shoppingg {
+    width: 100%;
+    height: auto;
+    padding: 30px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1424px) {
+  .shoppingg {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1314px) {
+  .shoppingg {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .func {
+    margin: 10px 15px;
+  }
+}
+@media (max-width: 1172px) {
+  .shoppingg {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+  .func {
+    margin: 10px 15px;
+  }
+}
+
+@media (max-width: 890px) {
+  .shoppingg {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+  .func {
+    margin: 10px 0;
+  }
+}
+@media (max-width: 799px) {
+  .shoppingg {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+  .func {
+    width: auto;
+    margin: 10px 2px;
+  }
+}
+@media (max-width: 577px) {
+  .shoppingg {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+  }
+  .func {
+    width: auto;
+    margin: 10px 1px;
+  }
+}
+@media (max-width: 543px) {
+  .shoppingg {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+  }
+  .func {
+    margin: 10px 1px;
+  }
+
+  .shopping {
+    width: 250px;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+
+} */
+
+/* ******************************** */
+
+@media (max-width: 1382px) {
+  .adminHeder {
+    width: 100%;
+    height: auto;
+    padding: 30px 5%;
+  }
+
+  .sportchilat {
+    width: 100%;
+    height: auto;
+    padding: 10px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .sport {
+    width: 370px;
+    height: 310px;
+    margin: 2%;
+  }
+
+  .sportUshla {
+    width: 100%;
+    height: auto;
+    padding: 10px 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .butoonnn button {
+    width: 101px;
+    height: 40px;
+    background: #f53b49;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    margin-left: 4%;
+  }
+}
+
+@media (max-width: 513px) {
+  .yozlar > p {
+    font-weight: 900;
+    font-size: 25.5px;
+    line-height: 110%;
+    color: #fff;
+    text-align: center;
+  }
+  .yozlar {
+    padding-top: 18%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10%;
+  }
+}
+
+@media (max-width: 1065px) {
+  .shoppingg {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+  .qizilpastri {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+
+  .yozlar > p {
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 110%;
+    color: #fff;
+  }
+  .adminHeder {
+    width: 100%;
+    height: auto;
+    padding: 30px 1%;
+  }
+}

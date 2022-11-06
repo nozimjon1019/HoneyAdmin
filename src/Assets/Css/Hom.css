@@ -1,0 +1,692 @@
+.Hom {
+  width: 100%;
+  padding: 12px 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mehmonlar {
+  width: 68%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.korilgan {
+  width: 30%;
+  padding-left: 1%;
+  padding-right: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(96, 125, 139, 0.1);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.mehmonlarCon {
+  width: 100%;
+  height: 360px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.mehmonlarDiag {
+  padding-top: 4%;
+  width: 100%;
+  height: 460px;
+  /* background-color: teal; */
+}
+
+.flexxx {
+  display: flex;
+}
+
+.diag {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+  display: none;
+}
+
+.mehmonlarDiag > :nth-child(1) {
+  font-weight: 700;
+  font-size: 20px;
+  color: #004d40;
+}
+.mehmonlarDiag > :nth-child(2) {
+  font-weight: 700;
+  font-size: 16px;
+  color: #004d40;
+  padding-bottom: 3%;
+}
+
+.mehmonCard1 > :nth-child(1) {
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.mehmonCard1 > :nth-child(2) {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.mehmonCard2 > :nth-child(1) {
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.mehmonCard2 > :nth-child(2) {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.mehmonCard3 > :nth-child(1) {
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.mehmonCard3 > :nth-child(2) {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.mehmonCard4 > :nth-child(1) {
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.mehmonCard4 > :nth-child(2) {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.mehmonCard5 > :nth-child(1) {
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.mehmonCard5 > :nth-child(2) {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.mehmonCard6 > :nth-child(1) {
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.mehmonCard6 > :nth-child(2) {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+.mehmonCard1 {
+  width: 320px;
+  height: 140px;
+  background: #3f51b5;
+  border-radius: 8px;
+  padding: 3%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mehmonCard2 {
+  width: 320px;
+  height: 140px;
+  background: #009688;
+  border-radius: 8px;
+  padding: 3%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mehmonCard3 {
+  width: 320px;
+  height: 140px;
+  background: #4caf50;
+  border-radius: 8px;
+  padding: 3%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mehmonCard4 {
+  width: 320px;
+  height: 140px;
+  background: #ff9800;
+  border-radius: 8px;
+  padding: 3%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mehmonCard5 {
+  width: 320px;
+  height: 140px;
+  background: #ff5722;
+  border-radius: 8px;
+  padding: 3%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mehmonCard6 {
+  width: 320px;
+  height: 140px;
+  background: #795548;
+  border-radius: 8px;
+  padding: 3%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.korilgan {
+  width: 30%;
+  padding-left: 1%;
+  padding-right: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(96, 125, 139, 0.1);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.korilganCon {
+  width: 100%;
+  height: 850px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 3%;
+  padding: 2%;
+}
+
+.korilganCard {
+  width: 100%;
+  height: 70px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 1% 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2% 0;
+}
+.korilganCon > :nth-child(1) {
+  font-weight: 400;
+  font-size: 24px;
+  color: #004d40;
+  text-align: center;
+}
+.kortext {
+  width: 50%;
+}
+.kortext > :nth-child(1) {
+  font-weight: 400;
+  font-size: 20px;
+  color: #004d40;
+}
+.kortext > :nth-child(2) {
+  display: flex;
+  align-items: center;
+  padding-top: 3%;
+}
+.kortext > :nth-child(2) > span {
+  font-weight: 400;
+  font-size: 15px;
+  color: #004d40;
+  padding-left: 5%;
+}
+.korbtn > button {
+  width: 100px;
+  height: 26px;
+  background: #2196f3;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+@media (max-width: 1592px) {
+  .mehmonCard1 {
+    width: 300px;
+    height: 140px;
+  }
+  .mehmonCard2 {
+    width: 300px;
+    height: 140px;
+  }
+  .mehmonCard3 {
+    width: 300px;
+    height: 140px;
+  }
+  .mehmonCard4 {
+    width: 300px;
+    height: 140px;
+  }
+  .mehmonCard5 {
+    width: 300px;
+    height: 140px;
+  }
+  .mehmonCard6 {
+    width: 300px;
+    height: 140px;
+  }
+}
+@media (max-width: 1500px) {
+  .mehmonCard1 {
+    width: 250px;
+    height: 140px;
+  }
+  .mehmonCard2 {
+    width: 250px;
+    height: 140px;
+  }
+  .mehmonCard3 {
+    width: 250px;
+    height: 140px;
+  }
+  .mehmonCard4 {
+    width: 250px;
+    height: 140px;
+  }
+  .mehmonCard5 {
+    width: 250px;
+    height: 140px;
+  }
+  .mehmonCard6 {
+    width: 250px;
+    height: 140px;
+  }
+  .mehmonlarCon {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1268px) {
+  .mehmonCard1 {
+    width: 350px;
+    height: 140px;
+  }
+  .mehmonCard2 {
+    width: 350px;
+    height: 140px;
+  }
+  .mehmonCard3 {
+    width: 350px;
+    height: 140px;
+  }
+  .mehmonCard4 {
+    width: 350px;
+    height: 140px;
+  }
+  .mehmonCard5 {
+    width: 350px;
+    height: 140px;
+  }
+  .mehmonCard6 {
+    width: 350px;
+    height: 140px;
+  }
+
+  .mehmonlarDiag {
+    padding-top: 20%;
+  }
+}
+
+@media (max-width: 1134px) {
+  .mehmonCard1 {
+    width: 290px;
+    height: 140px;
+  }
+  .mehmonCard2 {
+    width: 290px;
+    height: 140px;
+  }
+  .mehmonCard3 {
+    width: 290px;
+    height: 140px;
+  }
+  .mehmonCard4 {
+    width: 290px;
+    height: 140px;
+  }
+  .mehmonCard5 {
+    width: 290px;
+    height: 140px;
+  }
+  .mehmonCard6 {
+    width: 290px;
+    height: 140px;
+  }
+  .mehmonlarCon {
+    justify-content: space-between;
+  }
+  .mehmonlarDiag {
+    padding-top: 20%;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 1064px) {
+  .korbtn > button {
+    width: 70px;
+  }
+}
+@media (max-width: 1032px) {
+  .korilganCard {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 1% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 0;
+    flex-direction: column;
+  }
+  .kortext {
+    width: 100%;
+    text-align: center;
+  }
+  .kortext > :nth-child(2) > span {
+    padding-left: 15%;
+  }
+  .korbtn > button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70px;
+  }
+  .korilgan {
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 950px) {
+  .mehmonCard1 {
+    width: 250px;
+  }
+  .mehmonCard2 {
+    width: 250px;
+  }
+  .mehmonCard3 {
+    width: 250px;
+  }
+  .mehmonCard4 {
+    width: 250px;
+  }
+  .mehmonCard5 {
+    width: 250px;
+  }
+  .mehmonCard6 {
+    width: 250px;
+  }
+}
+@media (max-width: 870px) {
+  .Hom {
+    width: 100%;
+    padding: 12px 2%;
+    flex-direction: column;
+  }
+  .korilgan {
+    width: 100%;
+    overflow-y: scroll;
+    margin-top: 5%;
+  }
+  .korilganCon {
+    width: 100%;
+    height: 500px;
+  }
+  .korilganCard {
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .kortext {
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .kortext > :nth-child(2) {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-top: 3%;
+  }
+  .kortext > :nth-child(2) > span {
+    font-weight: 400;
+    font-size: 15px;
+    color: #004d40;
+    padding-left: 5%;
+  }
+  .korbtn > button {
+    width: 100px;
+    height: 26px;
+    background: #2196f3;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ffffff;
+  }
+  .mehmonlarDiag {
+    display: none;
+  }
+  .diag {
+    display: flex;
+  }
+
+  .mehmonlarCon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .mehmonlar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .mehmonCard1 {
+    width: 320px;
+  }
+  .mehmonCard2 {
+    width: 320px;
+  }
+  .mehmonCard3 {
+    width: 320px;
+  }
+  .mehmonCard4 {
+    width: 320px;
+  }
+  .mehmonCard5 {
+    width: 320px;
+  }
+  .mehmonCard6 {
+    width: 320px;
+  }
+}
+@media (max-width: 707px) {
+  .mehmonCard1 {
+    width: 270px;
+  }
+  .mehmonCard2 {
+    width: 270px;
+  }
+  .mehmonCard3 {
+    width: 270px;
+  }
+  .mehmonCard4 {
+    width: 270px;
+  }
+  .mehmonCard5 {
+    width: 270px;
+  }
+  .mehmonCard6 {
+    width: 270px;
+  }
+}
+@media (max-width: 578px) {
+  .kortext > :nth-child(2) {
+    width: 80%;
+  }
+}
+@media (max-width: 604px) {
+  .mehmonCard1 {
+    width: 220px;
+  }
+  .mehmonCard2 {
+    width: 220px;
+  }
+  .mehmonCard3 {
+    width: 220px;
+  }
+  .mehmonCard4 {
+    width: 220px;
+  }
+  .mehmonCard5 {
+    width: 220px;
+  }
+  .mehmonCard6 {
+    width: 220px;
+  }
+}
+@media (max-width: 492px) {
+  .mehmonCard1 {
+    width: 200px;
+  }
+  .mehmonCard2 {
+    width: 200px;
+  }
+  .mehmonCard3 {
+    width: 200px;
+  }
+  .mehmonCard4 {
+    width: 200px;
+  }
+  .mehmonCard5 {
+    width: 200px;
+  }
+  .mehmonCard6 {
+    width: 200px;
+  }
+
+  .mehmonCard1 > :nth-child(1) {
+    font-size: 20px;
+  }
+  .mehmonCard1 > :nth-child(2) {
+    font-size: 18px;
+  }
+  .mehmonCard2 > :nth-child(1) {
+    font-size: 20px;
+  }
+  .mehmonCard2 > :nth-child(2) {
+    font-size: 18px;
+  }
+  .mehmonCard3 > :nth-child(1) {
+    font-size: 20px;
+  }
+  .mehmonCard3 > :nth-child(2) {
+    font-size: 18px;
+  }
+  .mehmonCard4 > :nth-child(1) {
+    font-size: 20px;
+  }
+  .mehmonCard4 > :nth-child(2) {
+    font-size: 18px;
+  }
+  .mehmonCard5 > :nth-child(1) {
+    font-size: 20px;
+  }
+  .mehmonCard5 > :nth-child(2) {
+    font-size: 18px;
+  }
+  .mehmonCard6 > :nth-child(1) {
+    font-size: 20px;
+  }
+  .mehmonCard6 > :nth-child(2) {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 459px) {
+  .mehmonlarCon {
+    gap: 20px;
+  }
+  .korilgan {
+    /* background: none; */
+  }
+}
+@media (max-width: 436px) {
+  .mehmonCard1 {
+    width: 100%;
+  }
+  .mehmonCard2 {
+    width: 100%;
+  }
+  .mehmonCard3 {
+    width: 100%;
+  }
+  .mehmonCard4 {
+    width: 100%;
+  }
+  .mehmonCard5 {
+    width: 100%;
+  }
+  .mehmonCard6 {
+    width: 100%;
+  }
+}
+@media (max-width: 374px) {
+  .kortext > :nth-child(2) > span {
+    font-weight: 400;
+    font-size: 12px;
+    color: #004d40;
+    padding-left: 5%;
+  }
+}
+@media (max-width: 348px) {
+  .kortext > :nth-child(2) {
+    width: 90%;
+  }
+  .korbtn > button {
+    width: 60px;
+    font-size: 12px;
+  }
+}

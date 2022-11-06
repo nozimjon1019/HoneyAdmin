@@ -1,0 +1,39 @@
+.ProduktCard {
+  width: 100%;
+  height: 896px;
+  padding: 2% 2%;
+  background-color: gold;
+}
+#navthed > :nth-child(1) {
+  text-align: center;
+}
+#navthed > :nth-child(2) {
+  text-align: center;
+}
+#navthed > :nth-child(3) {
+  text-align: center;
+}
+#navthed > :nth-child(4) {
+  text-align: center;
+}
+#navthed > :nth-child(5) {
+  text-align: center;
+}
+#tdtd > :nth-child(1) {
+  text-align: center;
+}
+#tdtd > :nth-child(2) {
+  text-align: center;
+}
+#tdtd > :nth-child(3) {
+  text-align: center;
+}
+#tdtd > :nth-child(4) {
+  text-align: center;
+}
+#tdtd > :nth-child(5) {
+  text-align: center;
+}
+#tdtd > :nth-child(6) {
+  text-align: center;
+}

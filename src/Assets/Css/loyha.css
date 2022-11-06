@@ -1,0 +1,606 @@
+.loyha{
+    width: 100%;
+    height: auto;
+    padding: 30px 225px;
+}
+
+.loyhaKonainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.loyhaUshla{
+    background-color: #DBDDE5;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.loyha11{
+    width: 700px;
+    height: 400px;
+    background-color: 
+    #DBDDE5;
+    border-radius: 10px;
+    background-image: url(../img/loyha1.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.loyha11 > p{
+    top: 50%;
+    left: 10%;
+    position: absolute;
+    color: #DBDDE5;
+    font-size: 30px;
+}
+
+
+.loyha11:hover .hov1{
+    width: 100px;
+    position: absolute;
+    right: 0px;
+}
+
+.hov1{
+    width: 0;
+    height: 44vh;
+    background-color: rgba(0, 0, 0, 0.699);
+    transition: all 0.6s ease-in-out;
+    position: absolute;
+    right: -60px;
+    top: 0;
+    padding: 10px 30px;
+}
+.like1{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    position: relative;
+}
+
+.sariq1{
+    width: 250px;
+    height: 50px;
+    background-color: gold;
+    position: absolute;
+    bottom: 15px;
+    transform: rotate(30deg);
+    left: -30px;
+}
+.sariq1  > p{
+    padding-right: 10%;
+    padding-top: 5px;
+    text-align: center;
+}
+
+/* *********************************************** */
+
+.loyha2{
+    width: 700px;
+    height: 400px;
+    background-color: 
+    #DBDDE5;
+    border-radius: 10px;
+    background-image: url(../img/loyha2.webp);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.loyha2 > p{
+    top: 50%;
+    left: 10%;
+    position: absolute;
+    color: #DBDDE5;
+    font-size: 30px;
+}
+
+.loyha2:hover .hov2{
+    width: 100px;
+    position: absolute;
+    right: 0px;
+}
+
+.hov2{
+    width: 0;
+    height: 44vh;
+    background-color: rgba(0, 0, 0, 0.699);
+    transition: all 0.6s ease-in-out;
+    position: absolute;
+    right: -60px;
+    top: 0;
+    padding: 10px 30px;
+   
+}
+.like2{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.sariq2{
+    width: 250px;
+    height: 50px;
+    background-color: gold;
+    position: absolute;
+    bottom: 15px;
+    transform: rotate(30deg);
+    left: -30px;
+}
+.sariq2  > p{
+    padding-right: 10%;
+    padding-top: 5px;
+    text-align: center;
+}
+
+/* ****************************************** */
+
+.loyha3{
+    width: 700px;
+    height: 400px;
+    background-color: 
+    #DBDDE5;
+    border-radius: 10px;
+    background-image: url(../img/loyha3.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.loyha3 > p{
+    top: 50%;
+    left: 10%;
+    position: absolute;
+    color: #DBDDE5;
+    font-size: 30px;
+}
+
+.loyha3:hover .hov3{
+    width: 100px;
+    position: absolute;
+    right: 0px;
+}
+
+.hov3{
+    width: 0;
+    height: 44vh;
+    background-color: rgba(0, 0, 0, 0.699);
+    transition: all 0.6s ease-in-out;
+    position: absolute;
+    right: -60px;
+    top: 0;
+    padding: 10px 30px;
+   
+}
+.like3{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.sariq3{
+    width: 250px;
+    height: 50px;
+    background-color: gold;
+    position: absolute;
+    bottom: 15px;
+    transform: rotate(30deg);
+    left: -30px;
+}
+.sariq3  > p{
+    padding-right: 10%;
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+/* ****************************************** */
+
+.loyha4{
+    width: 700px;
+    height: 400px;
+    background-color: 
+    #DBDDE5;
+    border-radius: 10px;
+    background-image: url(../img/loyha4.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.loyha4 > p{
+    top: 50%;
+    left: 10%;
+    position: absolute;
+    color: #DBDDE5;
+    font-size: 30px;
+}
+
+.loyha4:hover .hov4{
+    width: 100px;
+    position: absolute;
+    right: 0px;
+}
+
+.hov4{
+    width: 0;
+    height: 44vh;
+    background-color: rgba(0, 0, 0, 0.699);
+    transition: all 0.6s ease-in-out;
+    position: absolute;
+    right: -60px;
+    top: 0;
+    padding: 10px 30px;
+   
+}
+.like4{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.sariq4{
+    width: 250px;
+    height: 50px;
+    background-color: gold;
+    position: absolute;
+    bottom: 15px;
+    transform: rotate(30deg);
+    left: -30px;
+}
+.sariq4  > p{
+    padding-right: 10%;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.slaycha{
+    width: 100%;
+    height: auto;
+    padding: 30px 255px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.h2{
+    margin: 10px 0;
+}
+
+
+@media(max-width:1889px){
+    .loyha{
+        width: 100%;
+        height: auto;
+        padding: 30px 5%;
+    }
+    .loyhaKonainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .loyha11{
+        width: 700px;
+        height: 400px;
+        background-color: 
+        #DBDDE5;
+        border-radius: 10px;
+        background-image: url(../img/loyha1.jpg);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    .loyha2{
+        width: 700px;
+        height: 400px;
+        background-color: 
+        #DBDDE5;
+        border-radius: 10px;
+        background-image: url(../img/loyha2.webp);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    .loyha3{
+        width: 700px;
+        height: 400px;
+        background-color: 
+        #DBDDE5;
+        border-radius: 10px;
+        background-image: url(../img/loyha3.jpg);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    .loyha4{
+        width: 700px;
+        height: 400px;
+        background-color: 
+        #DBDDE5;
+        border-radius: 10px;
+        background-image: url(../img/loyha4.jpg);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+@media(max-width:1570px){
+    .loyha{
+        width: 100%;
+        height: auto;
+        padding: 30px 1%;
+    }
+}
+
+@media(max-width:1441px){
+    .loyha{
+        width: 100%;
+        height: auto;
+        padding: 30px 1px;
+    }
+
+
+    .loyha11{
+        width: 600px;
+        height: 400px;
+        background-color: 
+        #DBDDE5;
+        border-radius: 10px;
+        background-image: url(../img/loyha1.jpg);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    .loyha2{
+        width: 600px;
+        height: 400px;
+        background-color: 
+        #DBDDE5;
+        border-radius: 10px;
+        background-image: url(../img/loyha2.webp);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    .loyha3{
+        width: 600px;
+        height: 400px;
+        background-color: 
+        #DBDDE5;
+        border-radius: 10px;
+        background-image: url(../img/loyha3.jpg);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    .loyha4{
+        width: 600px;
+        height: 400px;
+        background-color: 
+        #DBDDE5;
+        border-radius: 10px;
+        background-image: url(../img/loyha4.jpg);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+
+@media(max-width:1217px){
+    .loyha11{
+        width: 400px;
+        height: 400px;
+        background-color: 
+        #DBDDE5;
+        border-radius: 10px;
+        background-image: url(../img/loyha1.jpg);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    .loyha2{
+        width: 400px;
+        height: 400px;
+        background-color: 
+        #DBDDE5;
+        border-radius: 10px;
+        background-image: url(../img/loyha2.webp);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    .loyha3{
+        width: 400px;
+        height: 400px;
+        background-color: 
+        #DBDDE5;
+        border-radius: 10px;
+        background-image: url(../img/loyha3.jpg);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    .loyha4{
+        width: 400px;
+        height: 400px;
+        background-color: 
+        #DBDDE5;
+        border-radius: 10px;
+        background-image: url(../img/loyha4.jpg);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+
+@media(max-width:360px){
+
+    .slaycha{
+        width: 100%;
+        height: auto;
+        padding: 30px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .sportUshla{
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+        display: flex;
+        /* justify-content: center;
+        align-items: flex; */
+        flex-wrap: wrap;
+        }
+        .sport{
+            width: 250px;
+            height: 310px;
+            margin: 20px 0;
+        }
+        .sport > img{
+            width:270px;
+        }
+        .sport > p{
+           text-align: center;
+        }
+
+        .loyha11{
+            width: 300px;
+            height: 400px;
+            background-color: 
+            #DBDDE5;
+            border-radius: 10px;
+            background-image: url(../img/loyha1.jpg);
+            background-size: cover;
+            position: relative;
+            overflow: hidden;
+        }
+        
+    .loyha2{
+        width: 300px;
+        height: 400px;
+        background-color: 
+        #DBDDE5;
+        border-radius: 10px;
+        background-image: url(../img/loyha2.webp);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    .loyha3{
+        width: 300px;
+        height: 400px;
+        background-color: 
+        #DBDDE5;
+        border-radius: 10px;
+        background-image: url(../img/loyha3.jpg);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    .loyha4{
+        width: 300px;
+        height: 400px;
+        background-color: 
+        #DBDDE5;
+        border-radius: 10px;
+        background-image: url(../img/loyha4.jpg);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .hov1{
+        width: 0;
+        height: 60vh;
+        background-color: rgba(0, 0, 0, 0.699);
+        transition: all 0.6s ease-in-out;
+        position: absolute;
+        right: -60px;
+        top: 0;
+        padding: 10px 30px;
+    }
+    
+    .hov2{
+        width: 0;
+        height: 60vh;
+        background-color: rgba(0, 0, 0, 0.699);
+        transition: all 0.6s ease-in-out;
+        position: absolute;
+        right: -60px;
+        top: 0;
+        padding: 10px 30px;
+    }
+    .hov3{
+        width: 0;
+        height: 60vh;
+        background-color: rgba(0, 0, 0, 0.699);
+        transition: all 0.6s ease-in-out;
+        position: absolute;
+        right: -60px;
+        top: 0;
+        padding: 10px 30px;
+    }
+    .hov4{
+        width: 0;
+        height: 60vh;
+        background-color: rgba(0, 0, 0, 0.699);
+        transition: all 0.6s ease-in-out;
+        position: absolute;
+        right: -60px;
+        top: 0;
+        padding: 10px 30px;
+    }
+
+}      
+
+
+@media(max-width:470px){
+    .slaycha{
+        width: 100%;
+        height: auto;
+        padding: 30px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
