@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "../Assets/Css/Order.css";
@@ -26,7 +25,7 @@ export function Ordeer() {
   }, [api]);
 
   function Add(item) {
-    // console.log(data[item]);
+    // console.log("salom");
   }
   return (
     <div className="sdsdsdsd">
