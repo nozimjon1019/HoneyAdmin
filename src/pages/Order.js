@@ -4,17 +4,11 @@ import axios from "axios";
 import "../Assets/Css/Order.css";
 import or1 from "../Assets/icons/order1.svg";
 import or2 from "../Assets/icons/eye.svg";
-import err from "../Assets/icons/error.svg";
 import { NavLink } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 
 export function Ordeer() {
   const api = process.env.REACT_APP_API;
   const [order, SetOrder] = useState([]);
-  const navigate = useNavigate();
-  const [tavar, setTavar] = useState(
-    JSON.parse(localStorage.getItem("tavar")) || []
-  );
 
   useEffect(() => {
     axios(`${api}/order/view`, {
