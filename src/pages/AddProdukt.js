@@ -1,12 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../Assets/Css/product.css";
 import addimg from "../Assets/img/Add Img.png";
 import axlat from "../Assets/icons/axlat.svg";
 import axios from "axios";
+import { useSnackbar } from "notistack";
+import { useNavigate } from "react-router-dom";
 
 export function AddProdukt() {
   const api = process.env.REACT_APP_API;
   const [img, setImg] = useState([]);
+  const { enqueueSnackbar } = useSnackbar();
+  const navigate = useNavigate();
   const [value, setValue] = useState({
     name: "",
     price: "",
@@ -16,13 +20,18 @@ export function AddProdukt() {
   });
 
   const addProduct = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     const formData = new FormData();
+    enqueueSnackbar("Maxsulot Qoshildi", {
+      variant: "success",
+    });
+    navigate("/ProduktCard");
 
     formData.append("data", JSON.stringify(value));
     for (let i = 0; img.length > i; i++) {
       formData.append("img", img[i]);
     }
+    console.log(value);
 
     axios(`${api}/product/add`, {
       method: "POST",
@@ -40,6 +49,7 @@ export function AddProdukt() {
       });
   };
 
+  /////////////////////////////////////
   return (
     <div className="Product">
       <form action="" className="addCardd" onSubmit={addProduct}>

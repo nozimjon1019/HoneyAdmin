@@ -42,6 +42,7 @@ export function Ordeer() {
         </thead>
         <tbody>
           {order.map((item) => {
+            
             return (
               <tr id="tdtd" key={item.id}>
                 <td>{item.customer}</td>

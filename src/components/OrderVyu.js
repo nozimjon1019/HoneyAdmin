@@ -39,7 +39,7 @@ export function VyuKard() {
       .catch((err) => {
         console.log(err.response.data.message);
       });
-  }, [api]);
+  }, [api, order]);
 
   return (
     <div className="orderVyu">

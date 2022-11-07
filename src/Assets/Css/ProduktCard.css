@@ -2,7 +2,7 @@
   width: 100%;
   height: 896px;
   padding: 2% 2%;
-  background-color: gold;
+  overflow-y: auto;
 }
 #navthed > :nth-child(1) {
   text-align: center;
@@ -36,4 +36,7 @@
 }
 #tdtd > :nth-child(6) {
   text-align: center;
+}
+#imgimgimdg > img {
+  width: 100px;
 }

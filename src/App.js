@@ -7,6 +7,7 @@ import { Ordeer } from "./pages/Order";
 import { AddProdukt } from "./pages/AddProdukt";
 import { VyuKard } from "./components/OrderVyu";
 import { ProduktCard } from "./pages/ProduktCard";
+import { Update } from "./components/Update";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/addProdukt" element={<AddProdukt />} />
           <Route path="/vyuKard" element={<VyuKard />} />
           <Route path="/produktCard" element={<ProduktCard />} />
+          <Route path="/update/:id" element={<Update />} />
         </Routes>
       </div>
     </Router>
